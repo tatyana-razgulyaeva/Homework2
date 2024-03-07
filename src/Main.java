@@ -7,35 +7,35 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
 
-        var result1 = dog + 4;
-        var result2 = cat + 4;
-        var result3 = paper + 4;
-        System.out.println(result1);
-        System.out.println(result2);
-        System.out.println(result3);
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
-        var result4 = dog - 3.5;
-        var result5 = cat - 1.6;
-        var result6 = paper - 7639;
-        System.out.println(result4);
-        System.out.println(result5);
-        System.out.println(result6);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
         var friend = 19;
-        var result7 = friend + 2;
-        var result8 = friend / 7;
         System.out.println(friend);
-        System.out.println(result7);
-        System.out.println(result8);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
 
         var frog = 3.5;
-        var result9 = frog * 10;
-        var result10 = frog / 3.5;
-        var result11 = result10 + 4;
         System.out.println(frog);
-        System.out.println(result9);
-        System.out.println(result10);
-        System.out.println(result11);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
 
         var firstBoxer = 78.2;
         var secondBoxer = 82.7;
